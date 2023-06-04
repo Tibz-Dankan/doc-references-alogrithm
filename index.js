@@ -33,7 +33,7 @@ const rl = readline.createInterface({
 rl.question("Enter a string: ", (inputString) => {
   rl.question("Enter the maximum length: ", (maxLength) => {
     const modifiedString = addFullStop(inputString, parseInt(maxLength));
-    console.log("Modified string:", modifiedString);
+    console.log(modifiedString);
     rl.close();
   });
 });
